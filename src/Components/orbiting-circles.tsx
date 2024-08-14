@@ -1,10 +1,38 @@
 import OrbitingCircles from "@/Components/magicui/orbiting-circle";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 export function OrbitingCirclesDemo() {
   return (
-    <div className="relative flex h-[100vh] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
-      <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-black">
-        Circles
+    <div className="relative flex h-[110vh] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
+      <span className="pointer-events-none whitespace-pre-wrap dark:text-white text-black bg-clip-text text-center text-8xl font-semibold leading-none flex items-center justify-center text-transparent dark:from-white dark:to-black">
+        <div className="flex items-center justify-center flex-col md:w-full w-[90%] h-50">
+          <div className=" w-full flex items-center justify-center flex-col">
+            <div className=" w-full flex items-center justify-centter flex-col">
+              <h1 className="text-[2.2rem] md:text-[3rem] mb-10 md:mb-8">
+                We’ve really sped up our workflow
+              </h1>
+              <div className="w-full text-[#475467] text-[1.1rem]">
+                <p className=" mb-10 md:mb-5 text-center font-normal leading-7">
+                  <span className=" font-bold">
+                    We’ve just released a new update!
+                  </span>
+                  <br />
+                  Check out the all new dashboard view. Pages and now load
+                  faster.you can try us for free for 30 days.
+                </p>
+                <p>Join 4,000+ companies already growing</p>
+              </div>
+            </div>
+            <div className="flex my-10 items-center justify-center gap-3 flex-col md:flex-row-reverse w-full">
+              <button className="flex bg-[#7F56D9] w-full md:w-fit text-white py-3 px-5 rounded-lg text-[1.2rem] items-center justify-center gap-3">
+                Join Now
+              </button>
+              <button className="flex w-full border-2 md:w-fit bg-white py-3 px-5 rounded-lg text-[1.2rem] items-center justify-center gap-3">
+                <FaArrowRightLong /> Start Learning Today
+              </button>
+            </div>
+          </div>
+        </div>
       </span>
 
       {/* Inner Circles */}
