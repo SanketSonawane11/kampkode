@@ -1,11 +1,11 @@
 import OrbitingCircles from "@/Components/magicui/orbiting-circle";
 import { FaArrowRightLong } from "react-icons/fa6";
 
-export function OrbitingCirclesDemo() {
+export function OrbitingCirclesC() {
   return (
     <div className="relative flex h-[110vh] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
       <span className="pointer-events-none whitespace-pre-wrap dark:text-white text-black bg-clip-text text-center text-8xl font-semibold leading-none flex items-center justify-center text-transparent dark:from-white dark:to-black">
-        <div className="flex items-center justify-center flex-col md:w-full w-[90%] h-50">
+        <div className="flex z-10 items-center justify-center flex-col md:w-full w-[90%] h-50">
           <div className=" w-full flex items-center justify-center flex-col">
             <div className=" w-full flex items-center justify-centter flex-col">
               <h1 className="text-[2.2rem] md:text-[3rem] mb-10 md:mb-8">
