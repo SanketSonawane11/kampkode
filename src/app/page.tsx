@@ -1,5 +1,6 @@
 import { Navbar } from "@/Components/Navbar";
 import { OrbitingCirclesC } from "@/Components/orbiting-circles";
+import { StickyScrollReveal } from "@/Components/StickyScroll";
 import React from "react";
 
 function page() {
@@ -7,6 +8,7 @@ function page() {
     <div>
       <Navbar />
       <OrbitingCirclesC />
+      <StickyScrollReveal />
     </div>
   );
 }
